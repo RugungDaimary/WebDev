@@ -1,0 +1,41 @@
+body {
+      font-size: 20px;
+      
+}
+div{
+    padding: 10px;
+    display: inline-block;
+    background-color:aqua;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.a{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.b{
+    position: fixed;
+    bottom: 90px;
+  
+    right: 20px;
+    width: 100px;
+}
+.c{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 200px;
+    height: 100px;
+}
+.d{
+    position: sticky;
+    top: 5px;
+}
+.wrapper{
+    width: 100vw;
+    background-color: yellowgreen;
+    height: 2000px;
+
+}

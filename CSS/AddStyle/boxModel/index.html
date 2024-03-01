@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            /* border means boundry line */ 
+            border: 1px solid black ;
+            height: 200px;
+            width: 200px;
+            /* margin means the gap between elements or the  outer side space of border line  */
+            margin: 30px;
+            margin-top: 100px;
+            margin-left: 150px;
+            /* space betwwen content and border is called padding */
+            padding: 50px;
+            box-sizing: border-box;
+            /* when box sizing is applied content will become smaller but box remains same  ,
+            But when padding is applied and box size not applied content remains same and box becomes larger*/
+        }
+        #id1{
+            background-color: red;
+        }
+        #id2{
+            /* rgb functions */
+            background-color:rgb(63, 23, 115);
+            
+        }
+        #id3{
+            background-color: #ff56ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="id1">ABC</div>
+    <!-- <br> -->
+    <div class="box" id="id2">BCA</div>
+    <!-- <br> -->
+    <div class="box" id="id3">CAB</div>
+</body>
+</html>

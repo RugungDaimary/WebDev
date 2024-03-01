@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    /* text-shadow: 3px 3px 3px red, 4px 4px 4px green; */
+    /* text-shadow: 3px 3px 3px red,40px 40px 4px green; */
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.8);
+}
+.box{
+
+    margin-top: 50px;
+    margin-left: 30%;
+    background-color: aqua;
+    height: 100px;
+    width:150px;
+    /* by default the shadow color is same as text color */
+    /* box-shadow: -10px -10px 15px green,10px 10px 15px brown  ; */
+    /* by adding - sign direction is changed */
+    color:red;
+    
+    /* box using shadow */
+    box-shadow: 0 0 1px 3px rgba(0, 0, 0,1);
+
+}
